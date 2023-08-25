@@ -1,0 +1,58 @@
+{
+  "versionName": "v2023.08.25",
+  "versionCode": 4,
+  "data": [
+    {
+      "appPackage": "com.qiyi.video",
+      "keyWord": "关闭",
+      "maxCount": 1,
+      "delayed": 1500
+    },
+    {
+      "appPackage": "com.MobileTicket",
+      "viewId": "com.MobileTicket.launcher:id/tv_skip"
+    },
+    {
+      "appPackage": "com.UCMobile",
+      "viewId": "com.UCMobile:id/tt_splash_skip_btn"
+    },
+    {
+      "appPackage": "com.cmbchina.ccd.pluto.cmbActivity",
+      "viewId": "com.cmbchina.ccd.pluto.cmbActivity:id/img_cancel"
+    },
+    {
+      "appPackage": "com.Qunar",
+      "delayed": 3000
+    },
+    {
+      "appPackage": "com.douban.frodo",
+      "delayed": 2000
+    },
+    {
+      "appPackage": "com.qiyi.video",
+      "keyWord": "关闭",
+      "maxCount": 1,
+      "delayed": 1500
+    }
+  ],
+  "plugin": [
+    {
+      "activityName": "com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI",
+      "keyWord": "登录",
+      "isOpen": false,
+      "remarks": "微信自动登录"
+    },
+    {
+      "activityName": "com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI",
+      "keyWord": "原图",
+      "isOpen": false,
+      "remarks": "微信默认发送原图"
+    },
+    {
+      "activityName": "com.tencent.open.agent.PublicFragmentActivityForOpenSDK",
+      "keyWord": "授权登录",
+      "isOpen": false,
+      "remarks": "QQ自动登录"
+    }
+  ]
+}
